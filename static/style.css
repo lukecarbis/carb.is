@@ -1,0 +1,72 @@
+@font-face {
+	font-family: 'Rubik';
+	src: url('./fonts/rubik-extra-bold.woff2') format('woff2');
+	font-weight: 800;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Rubik';
+	src: url('./fonts/rubik-bold.woff2') format('woff2');
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Rubik';
+	src: url('./fonts/rubik-medium.woff2') format('woff2');
+	font-weight: 500;
+	font-style: normal;
+}
+
+:root {
+	--black: rgba(10, 10, 10, 1);
+	--blue: rgba(24, 148, 226, 1);
+	--brown: rgba(208, 72, 52, 1);
+	--cyan: rgba(26, 204, 253, 1);
+	--gray: rgba(199, 202, 212, 1);
+	--green: rgba(129, 211, 31, 1);
+	--indigo: rgba(80, 102, 255, 1);
+	--mint: rgba(130, 255, 247, 1);
+	--orange: rgba(250, 118, 9, 1);
+	--pink: rgba(252, 115, 204, 1);
+	--purple: rgba(125, 62, 252, 1);
+	--red: rgba(258, 0, 163, 1);
+	--teal: rgba(20, 161, 168, 1);
+	--white: rgba(255, 255, 255, 1);
+	--yellow: rgba(254, 199, 9, 1);
+}
+
+::selection {
+	color: var(--black);
+	background: var(--pink);
+}
+
+body {
+	background-color: var(--yellow);
+	color: var(--black);
+	font-size: 16px;
+	margin: 0;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+}
+
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: var(--black);
+		color: var(--red);
+	}
+}
+
+@media screen and (max-width: 768px) {
+	body {
+		justify-content: start;
+	}
+}

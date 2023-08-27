@@ -1,9 +1,10 @@
 <script>
 	export let title = '';
 	export let dir = 'ltr';
+	export let arch = 40;
 </script>
 
-<h1 style="--length: {title.length}" aria-label={title}>
+<h1 style="--length: {title.length}; --arch: {arch}" aria-label={title} {dir}>
 	{#each title as letter, index}
 		<span style="--num: {dir === 'rtl' ? title.length - index - 1 : index}">
 			{#if letter === ' '}
@@ -23,10 +24,9 @@
 		text-transform: uppercase;
 		letter-spacing: 4px;
 		cursor: default;
-		margin: 0 0 4rem;
+		margin: 0 auto 4rem;
 		position: relative;
 		z-index: 10;
-		--arch: 40;
 	}
 
 	h1 span {

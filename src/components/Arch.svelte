@@ -18,15 +18,14 @@
 
 <style>
 	h1 {
-		font-family: 'Rubik', sans-serif;
 		font-weight: 800;
 		font-size: 6rem;
 		text-transform: uppercase;
 		letter-spacing: 4px;
 		cursor: default;
 		margin: 0 auto 4rem;
-		position: relative;
-		z-index: 10;
+		position: static;
+		speak-as: normal;
 	}
 
 	h1 span {
@@ -75,7 +74,7 @@
 
 	@media screen and (max-width: 768px) {
 		h1 {
-			margin-top: 3rem;
+			margin-top: 5rem;
 			font-size: 4rem;
 			translate: 0 calc(var(--arch) * 1px);
 		}

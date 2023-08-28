@@ -44,6 +44,8 @@ body {
 	background-color: var(--yellow);
 	color: var(--black);
 	font-size: 16px;
+	font-weight: 500;
+	font-family: 'Rubik', sans-serif;
 	margin: 0;
 	width: 100vw;
 	height: 100vh;
@@ -56,6 +58,11 @@ body {
 main {
 	display: flex;
 	flex-direction: column;
+	text-align: center;
+}
+
+main > div[inert] {
+	display: none;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -68,5 +75,15 @@ main {
 @media screen and (max-width: 768px) {
 	body {
 		justify-content: start;
+	}
+
+	main > div {
+		animation: none !important;
+		animation-delay: 0s !important;
+		animation-duration: 0s !important;
+	}
+
+	nav li[inert] {
+		display: none !important;
 	}
 }

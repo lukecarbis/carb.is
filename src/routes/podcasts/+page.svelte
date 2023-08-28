@@ -1,39 +1,61 @@
-<script>
-	import Nav from '../../components/Nav.svelte';
-</script>
-
-<div>
-	<h2><a href="https://crossword.fm">Crossword</a></h2>
-	<p>Perspectives on WordPress and the Open Web.</p>
+<div class="podcast">
+	<a href="https://crossword.fm"><img alt="Crossword podcast art" src="/images/crossword.png" /></a>
+	<div>
+		<h2><a href="https://crossword.fm">Crossword</a></h2>
+		<p>Perspectives on WordPress and the Open Web.</p>
+	</div>
 </div>
-<div>
-	<h2><a href="#">Ultra Max Pro</a></h2>
-	<p>App development and the Apple ecosystem.</p>
+<div class="podcast">
+	<a href="https://crossword.fm"><img alt="Crossword podcast art" src="/images/crossword.png" /></a>
+	<div>
+		<h2><a href="#">Ultra Max Pro</a></h2>
+		<p>App development and the Apple ecosystem.</p>
+	</div>
 </div>
 
-<Nav secondary={true} selected={1} />
+<img class="headphone" src="/images/headphone.png" alt="A headphone" />
+<img class="headphone" src="/images/headphone.png" alt="A headphone" />
 
 <style>
-	div {
+	.podcast {
 		margin-bottom: 3rem;
+		padding: 0 3rem;
 		position: relative;
-		z-index: 10;
-		padding: 0 2rem;
+		display: flex;
+		gap: 2rem;
+		text-align: left;
+	}
+
+	.podcast:nth-child(even) {
+		text-align: right;
+		flex-direction: row-reverse;
 	}
 
 	h2 {
-		text-align: center;
 		font-size: 2.5rem;
 		font-weight: 800;
-		font-family: 'Rubik', sans-serif;
 		margin: 0 0 2rem 0;
 	}
 
+	img {
+		width: 8rem;
+		height: 8rem;
+		rotate: -6deg;
+		border: 4px solid var(--purple);
+		border-radius: 1rem;
+		background-color: var(--purple);
+	}
+
+	a:hover img {
+		border-color: var(--cyan);
+	}
+
+	.podcast:nth-child(even) img {
+		rotate: 6deg;
+	}
+
 	p {
-		text-align: center;
 		font-size: 1.5rem;
-		font-weight: 500;
-		font-family: 'Rubik', sans-serif;
 	}
 
 	a {
@@ -48,6 +70,24 @@
 		text-decoration-color: var(--cyan);
 	}
 
+	.headphone {
+		position: absolute;
+		z-index: -10;
+		width: 3rem;
+		height: auto;
+		border: none;
+		rotate: -16deg;
+		top: -5rem;
+		right: 14rem;
+		background: transparent;
+	}
+
+	.headphone:nth-of-type(2) {
+		top: -7rem;
+		right: 8rem;
+		rotate: 42deg;
+	}
+
 	@media (prefers-color-scheme: dark) {
 		a {
 			color: var(--red);
@@ -58,6 +98,22 @@
 		}
 	}
 
+	@media screen and (max-width: 768px) {
+		.podcast:nth-child(even) {
+			text-align: left;
+			flex-direction: row;
+		}
+
+		img {
+			width: 6rem;
+			height: 6rem;
+			rotate: 0deg !important;
+		}
+
+		.headphone {
+			display: none;
+		}
+	}
 	@media screen and (max-width: 560px) {
 		h2 {
 			font-size: 2rem;

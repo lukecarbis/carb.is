@@ -1,24 +1,37 @@
 <script>
-	export let secondary = false;
-	export let selected = -1;
+	import { blur } from 'svelte/transition';
+
+	export let pathname = '/';
+	$: secondary = pathname !== '/';
+
+	const navItems = [
+		{ href: '/wp', label: 'WordPress' },
+		{ href: '/podcasts', label: 'Podcasts' },
+		{ href: '/apps', label: 'Apps' },
+		{ href: 'https://blog.carb.is/', label: 'Blog' }
+	];
 </script>
 
-{#if secondary && selected !== -1}
+{#if secondary}
 	<h1>
-		{selected === 0 ? 'WordPress' : ''}
-		{selected === 1 ? 'Podcasts' : ''}
-		{selected === 2 ? 'Apps' : ''}
-		{selected === 3 ? 'Blog' : ''}
+		{#each navItems as { href, label }}
+			{#if pathname === href}
+				{label}
+			{/if}
+		{/each}
 	</h1>
 {/if}
 <nav class={secondary ? 'secondary' : ''}>
 	<ul>
-		<li class={selected === 0 ? 'selected' : ''}><a href="#">WordPress</a></li>
-		<li class={selected === 1 ? 'selected' : ''}><a href="/podcasts">Podcasts</a></li>
-		<li class={selected === 2 ? 'selected' : ''}><a href="#">Apps</a></li>
-		<li class={selected === 3 ? 'selected' : ''}><a href="https://blog.carb.is">Blog</a></li>
+		{#each navItems as { href, label }}
+			<li class:selected={pathname === href}>
+				<a {href}>{label}</a>
+			</li>
+		{/each}
 		{#if secondary}
-			<li><a href="/" aria-label="Back">☚ Back</a></li>
+			<li transition:blur class="back">
+				<a href="/" aria-label="Back">☚ Back</a>
+			</li>
 		{/if}
 	</ul>
 </nav>
@@ -26,7 +39,6 @@
 <style>
 	h1 {
 		display: none;
-		font-family: 'Rubik', sans-serif;
 		font-weight: 800;
 		font-size: 3rem;
 		text-align: center;
@@ -54,7 +66,6 @@
 	}
 
 	li {
-		font-family: 'Rubik', sans-serif;
 		font-weight: 700;
 		font-size: 3rem;
 		text-align: center;
@@ -96,14 +107,15 @@
 		rotate: -12deg;
 	}
 
-	li:nth-child(5) {
+	li.back {
 		left: 50%;
 		bottom: 15%;
 		translate: -50% 0;
 		scale: 0.7;
+		transition: translate 0.5s;
 	}
 
-	li:nth-child(5):hover {
+	li.back:hover {
 		translate: -50% -1rem;
 	}
 
@@ -136,7 +148,7 @@
 			text-decoration-color: var(--cyan);
 		}
 
-		li:nth-child(5) a:hover {
+		li.back a:hover {
 			color: var(--cyan);
 		}
 	}
@@ -182,9 +194,13 @@
 			right: 0;
 		}
 
-		nav.secondary li:nth-child(5) {
+		nav li.back {
 			display: block;
 			translate: 0 !important;
+			transition: none !important;
+			animation: none !important;
+			animation-delay: 0s !important;
+			animation-duration: 0s !important;
 		}
 
 		li {

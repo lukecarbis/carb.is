@@ -47,7 +47,7 @@
 		text-decoration: underline;
 		text-decoration-color: var(--cyan);
 		text-decoration-thickness: 6px;
-		text-decoration-style: wavy;
+		-webkit-text-decoration-style: wavy;
 		text-underline-offset: 6px;
 	}
 
@@ -122,8 +122,8 @@
 	a {
 		text-decoration: underline;
 		text-decoration-color: var(--purple);
-		text-decoration-thickness: 6px;
-		text-decoration-style: wavy;
+		text-decoration-thickness: 4px;
+		-webkit-text-decoration-style: wavy;
 		text-underline-offset: 6px;
 		color: var(--black);
 		transition: all 0.2s;
@@ -178,6 +178,7 @@
 	@media screen and (max-width: 768px) {
 		h1 {
 			display: block;
+			text-decoration-thickness: 5px;
 			order: -1;
 		}
 
@@ -217,6 +218,7 @@
 	@media screen and (max-width: 560px) {
 		h1 {
 			font-size: 2.5rem;
+			text-decoration-thickness: 3px;
 		}
 
 		li {
@@ -231,6 +233,7 @@
 	@media screen and (max-width: 440px) {
 		h1 {
 			font-size: 2rem;
+			text-decoration-thickness: 2px;
 		}
 
 		li {

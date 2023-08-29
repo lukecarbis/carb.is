@@ -1,14 +1,16 @@
 <div class="podcast">
-	<a href="https://crossword.fm"><img alt="Crossword podcast art" src="/images/crossword.png" /></a>
+	<a href="https://crossword.fm" target="_blank"
+		><img alt="Crossword podcast art" src="/images/crossword.png" /></a
+	>
 	<div>
-		<h2><a href="https://crossword.fm">Crossword</a></h2>
+		<h2><a href="https://crossword.fm" target="_blank">Crossword</a></h2>
 		<p>Perspectives on WordPress and the Open Web.</p>
 	</div>
 </div>
 <div class="podcast">
-	<a href="https://crossword.fm"><img alt="Crossword podcast art" src="/images/crossword.png" /></a>
+	<a href="#" target="_blank"><img alt="Crossword podcast art" src="/images/crossword.png" /></a>
 	<div>
-		<h2><a href="#">Ultra Max Pro</a></h2>
+		<h2><a href="#" target="_blank">Ultra Max Pro</a></h2>
 		<p>App development and the Apple ecosystem.</p>
 	</div>
 </div>
@@ -60,7 +62,7 @@
 
 	a {
 		color: var(--black);
-		text-decoration-style: wavy;
+		-webkit-text-decoration-style: wavy;
 		text-underline-offset: 4px;
 		text-decoration-color: var(--purple);
 		transition: all 0.2s;

@@ -23,7 +23,7 @@
 		text-transform: uppercase;
 		letter-spacing: 4px;
 		cursor: default;
-		margin: 0 auto 4rem;
+		margin: 0 auto 2rem;
 		position: static;
 		speak-as: normal;
 	}

@@ -1,14 +1,11 @@
 <script>
-	import WordPressLogo from '../../components/svg/wp.svelte';
-	import GoogleLogo from '../../components/svg/google.svelte';
-	import ElementorLogo from '../../components/svg/elementor.svelte';
-	import XWPLogo from '../../components/svg/xwp.svelte';
-	import WPEngineLogo from '../../components/svg/wpengine.svelte';
-	import NewscorpLogo from '../../components/svg/newscorp.svelte';
-
-	let encodedEmail = 'bHVrZUBjYXJiLmlz'; // Replace this with your encoded email
-
-	const email = () => (window.location.href = `mailto:${atob(encodedEmail)}?subject=Hi Luke!`);
+	import WordPressLogo from '$lib/svg/wp.svelte';
+	import GoogleLogo from '$lib/svg/google.svelte';
+	import ElementorLogo from '$lib/svg/elementor.svelte';
+	import XWPLogo from '$lib/svg/xwp.svelte';
+	import WPEngineLogo from '$lib/svg/wpengine.svelte';
+	import NewscorpLogo from '$lib/svg/newscorp.svelte';
+	import { email } from '$lib/email.js';
 </script>
 
 <div class="browser">
@@ -45,7 +42,8 @@
 			</ul>
 			<p><span style="display: inline-block; width: 8rem;" />… and things like that.</p>
 			<p>
-				Want to know more? Shoot me an <a href="" on:click={email}>email</a>, find me on
+				Want to know more? Shoot me an
+				<a href on:keydown={email} on:click={email}>email</a>, find me on
 				<a href="https://wordpress.slack.com/team/U02RQ0V2B" target="_blank">Slack</a>, or
 				<a href="https://calendly.com/carbis/30min" target="_blank">book a call</a>.
 			</p>
@@ -174,6 +172,7 @@
 	}
 
 	.content .button:hover {
+		color: var(--white);
 		animation: wiggle 3s infinite;
 		background-color: var(--purple);
 		box-shadow: 0 4px 0 color-mix(in srgb, var(--black), var(--purple));

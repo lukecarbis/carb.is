@@ -1,6 +1,6 @@
 <script>
 	import { blur } from 'svelte/transition';
-	import Nav from '../components/Nav.svelte';
+	import Nav from '$lib/components/Nav.svelte';
 
 	export let data;
 	$: ({ pathname } = data);

@@ -1,18 +1,6 @@
 <script>
-	let currentTime = new Date();
-	setInterval(() => (currentTime = new Date()), 10000);
-
-	let batteryPercentage = 42;
-
-	if ('getBattery' in navigator) {
-		navigator.getBattery().then((battery) => {
-			batteryPercentage = battery.level * 100;
-
-			battery.addEventListener('levelchange', () => {
-				batteryPercentage = battery.level * 100;
-			});
-		});
-	}
+	import { currentTime } from '$lib/time.js';
+	import { batteryPercentage } from '$lib/battery.js';
 </script>
 
 <div class="phone">
@@ -20,15 +8,15 @@
 		<div class="island" />
 		<div class="status">
 			<span>
-				{currentTime.toLocaleTimeString('en-US', {
+				{$currentTime.toLocaleTimeString('en-US', {
 					hour: '2-digit',
 					minute: '2-digit',
 					hour12: false
 				})}
 			</span>
 			<span>
-				<span class="battery" style="--battery-percentage: {batteryPercentage}">
-					{batteryPercentage}
+				<span class="battery" style="--battery-percentage: {$batteryPercentage}">
+					{$batteryPercentage}
 				</span>
 			</span>
 		</div>

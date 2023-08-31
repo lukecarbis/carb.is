@@ -40,7 +40,7 @@
 				<li>Plugin Directory Optimisation</li>
 				<li>Developer Mentoring</li>
 			</ul>
-			<p><span style="display: inline-block; width: 8rem;" />… and things like that.</p>
+			<p><span class="things-like-that" />… and things like that.</p>
 			<p>
 				Want to know more? Shoot me an
 				<a href on:keydown={email} on:click={email}>email</a>, find me on
@@ -196,6 +196,11 @@
 		text-decoration-color: var(--cyan);
 	}
 
+	.content .things-like-that {
+		display: inline-block;
+		width: 8rem;
+	}
+
 	.sidebar {
 		grid-area: sidebar;
 		border-left: 2px solid var(--gray);
@@ -276,6 +281,9 @@
 		}
 		.content {
 			width: 100%;
+		}
+		.content .things-like-that {
+			width: 0;
 		}
 		.sidebar {
 			margin-top: 1rem;

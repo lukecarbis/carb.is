@@ -81,6 +81,7 @@
 	li:hover > a,
 	li.selected > a {
 		padding-bottom: 1rem;
+		text-decoration-color: var(--cyan);
 	}
 
 	li:nth-child(1) {
@@ -127,11 +128,6 @@
 		text-underline-offset: 6px;
 		color: var(--black);
 		transition: all 0.2s;
-	}
-
-	.selected a,
-	a:hover {
-		text-decoration-color: var(--cyan);
 	}
 
 	@media (prefers-color-scheme: dark) {
@@ -205,9 +201,10 @@
 		}
 
 		li {
-			position: relative;
+			position: static;
 			rotate: 0deg !important;
 			margin-bottom: 4rem;
+			top: 0;
 		}
 
 		a {

@@ -27,12 +27,13 @@
 		border: 4px solid var(--black);
 		margin: 1rem auto;
 		display: inline-flex;
-		gap: 1rem;
+		gap: 1.2rem;
 		justify-content: center;
 	}
 	@media screen and (max-width: 768px) {
 		div {
 			height: 2rem;
+			margin-bottom: 2rem;
 		}
 	}
 </style>

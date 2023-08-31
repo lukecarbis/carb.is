@@ -24,8 +24,6 @@
 		letter-spacing: 4px;
 		cursor: default;
 		margin: 0 auto 2rem;
-		position: static;
-		speak-as: normal;
 	}
 
 	h1 span {
@@ -74,14 +72,19 @@
 
 	@media screen and (max-width: 768px) {
 		h1 {
-			margin-top: 5rem;
+			margin-top: 3rem;
 			font-size: 4rem;
-			translate: 0 calc(var(--arch) * 1px);
+			translate: 0 0;
 		}
 		h1 span {
-			--shadow: calc((-2 / (var(--length) - 1) * var(--num) + 1) * -1px) 1px 0 var(--shadow-color),
-				calc((-2 / (var(--length) - 1) * var(--num) + 1) * -2px) 2px 0 var(--shadow-color),
-				calc((-2 / (var(--length) - 1) * var(--num) + 1) * -3px) 3px 0 var(--shadow-color);
+			text-shadow: none;
+			rotate: 0deg;
+			translate: none !important;
+		}
+
+		h1 span:hover {
+			top: 0;
+			text-shadow: none;
 		}
 	}
 

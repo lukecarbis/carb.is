@@ -90,8 +90,8 @@
 			to right,
 			var(--indigo) 0%,
 			var(--indigo) calc(var(--battery-percentage) * 1%),
-			color-mix(in srgb, var(--indigo), transparent) calc(var(--battery-percentage) * 1%),
-			color-mix(in srgb, var(--indigo), transparent) 100%
+			var(--indigo-transparent) calc(var(--battery-percentage) * 1%),
+			var(--indigo-transparent) 100%
 		);
 		border-radius: 6px;
 		padding: 0 0.5rem;
@@ -112,7 +112,7 @@
 		border-radius: 0 3px 3px 0;
 		margin-top: 3px;
 		margin-right: -2px;
-		background: color-mix(in srgb, var(--indigo), transparent);
+		background: var(--indigo-transparent);
 	}
 
 	.app {
@@ -184,14 +184,14 @@
 				to right,
 				var(--gray) 0%,
 				var(--gray) calc(var(--battery-percentage) * 1%),
-				color-mix(in srgb, var(--white), transparent) calc(var(--battery-percentage) * 1%),
-				color-mix(in srgb, var(--white), transparent) 100%
+				var(--white-transparent) calc(var(--battery-percentage) * 1%),
+				var(--white-transparent) 100%
 			);
 			color: var(--black);
 		}
 
 		.battery:after {
-			background: color-mix(in srgb, var(--white), transparent);
+			background: var(--white-transparent);
 		}
 
 		img {

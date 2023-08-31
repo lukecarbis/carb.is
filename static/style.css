@@ -19,19 +19,21 @@
 
 :root {
 	--black: rgba(10, 10, 10, 1);
-	--blue: rgba(24, 148, 226, 1);
-	--brown: rgba(208, 72, 52, 1);
-	--cyan: rgba(26, 204, 253, 1);
+	--black-transparent: color-mix(in srgb, var(--black), transparent);
+	--white: rgba(255, 255, 255, 1);
+	--white-transparent: color-mix(in srgb, var(--white), transparent);
 	--gray: rgba(199, 202, 212, 1);
-	--green: rgba(129, 211, 31, 1);
+	--gray-transparent: color-mix(in srgb, var(--gray), transparent);
+	--gray-dark: color-mix(in srgb, var(--gray), var(--black) 40%);
+	--cyan: rgba(26, 204, 253, 1);
 	--indigo: rgba(80, 102, 255, 1);
-	--mint: rgba(130, 255, 247, 1);
+	--indigo-transparent: color-mix(in srgb, var(--indigo), transparent);
+	--indigo-dark: color-mix(in srgb, var(--indigo), var(--black));
 	--orange: rgba(250, 118, 9, 1);
+	--orange-dark: color-mix(in srgb, var(--orange), var(--black));
 	--pink: rgba(252, 115, 204, 1);
 	--purple: rgba(125, 62, 252, 1);
-	--red: rgba(258, 0, 163, 1);
-	--teal: rgba(20, 161, 168, 1);
-	--white: rgba(255, 255, 255, 1);
+	--red: rgba(248, 0, 163, 1);
 	--yellow: rgba(254, 199, 9, 1);
 }
 

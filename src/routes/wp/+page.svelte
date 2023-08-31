@@ -168,14 +168,14 @@
 		font-weight: 700;
 		padding: 0.5rem 1rem;
 		cursor: pointer;
-		box-shadow: 0 4px 0 color-mix(in srgb, var(--black), var(--orange));
+		box-shadow: 0 4px 0 var(--orange-dark);
 	}
 
 	.content .button:hover {
 		color: var(--white);
 		animation: wiggle 3s infinite;
 		background-color: var(--purple);
-		box-shadow: 0 4px 0 color-mix(in srgb, var(--black), var(--purple));
+		box-shadow: 0 4px 0 var(--purple-dark);
 	}
 
 	.content .button:active {
@@ -217,7 +217,7 @@
 		padding: 1rem 1.5rem;
 		border-bottom: 2px solid var(--gray);
 		text-align: center;
-		color: color-mix(in srgb, var(--black), var(--white));
+		color: var(--gray-dark);
 	}
 
 	.sidebar .logo:nth-of-type(1):hover {

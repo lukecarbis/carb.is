@@ -21,7 +21,7 @@
 <style>
 	.podcast {
 		margin-bottom: 3rem;
-		padding: 0 3rem;
+		padding: 0;
 		position: relative;
 		display: flex;
 		gap: 2rem;

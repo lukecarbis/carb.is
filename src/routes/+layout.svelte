@@ -16,6 +16,7 @@
 
 <style>
 	div {
+		padding: 0 2rem;
 		position: relative;
 		z-index: 10;
 	}

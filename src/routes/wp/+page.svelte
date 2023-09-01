@@ -43,7 +43,7 @@
 			<p><span class="things-like-that" />… and things like that.</p>
 			<p>
 				Want to know more? Shoot me an
-				<a href on:keydown={email} on:click={email}>email</a>, find me on
+				<a href="/email.txt" on:keydown={email} on:click={email}>email</a>, find me on
 				<a href="https://wordpress.slack.com/team/U02RQ0V2B" target="_blank">Slack</a>, or
 				<a href="https://calendly.com/carbis/30min" target="_blank">book a call</a>.
 			</p>

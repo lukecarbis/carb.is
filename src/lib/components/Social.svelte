@@ -8,7 +8,7 @@
 <div>
 	<a href="http://linkedin.com/in/carbis/" target="_blank"><LinkedInLogo /></a>
 	<a href="https://github.com/lukecarbis" target="_blank"><GitHubLogo /></a>
-	<a href on:keydown={email} on:click={email}><EmailIcon /></a>
+	<a href="/email.txt" on:keydown={email} on:click={email}><EmailIcon /></a>
 </div>
 
 <style>

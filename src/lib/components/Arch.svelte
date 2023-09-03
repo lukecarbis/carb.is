@@ -70,7 +70,7 @@
 		}
 	}
 
-	@media screen and (max-width: 768px), screen and (max-height: 768px) {
+	@media screen and (max-width: 768px), screen and (max-height: 1024px) {
 		h1 {
 			margin-top: 3rem;
 			font-size: 4rem;

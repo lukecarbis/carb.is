@@ -171,7 +171,7 @@
 		}
 	}
 
-	@media screen and (max-width: 768px), screen and (max-height: 768px) {
+	@media screen and (max-width: 768px), screen and (max-height: 1024px) {
 		h1 {
 			margin-bottom: 3rem;
 			display: block;
@@ -183,6 +183,7 @@
 			position: relative;
 			padding-top: 1rem;
 			height: auto;
+			flex: 1;
 		}
 
 		nav.secondary li {

@@ -15,6 +15,7 @@
 	a {
 		color: var(--black);
 		transition: translate 0.5s;
+		display: contents;
 	}
 
 	a:hover {
@@ -47,7 +48,7 @@
 		}
 	}
 
-	@media screen and (max-width: 768px), screen and (max-height: 768px) {
+	@media screen and (max-width: 768px), screen and (max-height: 1024px) {
 		div {
 			height: 2rem;
 			margin-bottom: 2rem;

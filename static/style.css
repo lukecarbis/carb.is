@@ -34,6 +34,7 @@
 	--pink: rgba(252, 115, 204, 1);
 	--purple: rgba(125, 62, 252, 1);
 	--red: rgba(248, 0, 163, 1);
+	--red-transparent: color-mix(in srgb, var(--red), transparent);
 	--yellow: rgba(254, 199, 9, 1);
 }
 
@@ -61,6 +62,7 @@ main {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
+	min-height: 100%;
 }
 
 main > div[inert] {
@@ -74,7 +76,7 @@ main > div[inert] {
 	}
 }
 
-@media screen and (max-width: 768px), screen and (max-height: 768px) {
+@media screen and (max-width: 768px), screen and (max-height: 1024px) {
 	body {
 		justify-content: start;
 	}

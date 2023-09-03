@@ -270,7 +270,7 @@
 		}
 	}
 
-	@media screen and (max-width: 768px) and (max-height: 768px) {
+	@media screen and (max-width: 768px) and (max-height: 1024px) {
 		.browser {
 			padding-top: 0;
 		}

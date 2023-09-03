@@ -16,10 +16,12 @@
 		color: var(--black);
 		transition: translate 0.5s;
 	}
+
 	a:hover {
 		translate: 0 -0.4rem;
 		color: var(--purple);
 	}
+
 	div {
 		height: 2.5rem;
 		padding: 0.5rem 1.5rem;
@@ -30,7 +32,22 @@
 		gap: 1.2rem;
 		justify-content: center;
 	}
-	@media screen and (max-width: 768px) {
+
+	@media (prefers-color-scheme: dark) {
+		a {
+			color: var(--red);
+		}
+
+		a:hover {
+			color: var(--purple);
+		}
+
+		div {
+			border-color: var(--purple);
+		}
+	}
+
+	@media screen and (max-width: 768px), screen and (max-height: 768px) {
 		div {
 			height: 2rem;
 			margin-bottom: 2rem;

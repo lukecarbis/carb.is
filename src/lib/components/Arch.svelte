@@ -64,13 +64,13 @@
 		}
 	}
 
-	@media screen and (max-width: 1024px) {
+	@media screen and (max-width: 1024px), screen and (max-height: 1024px) {
 		h1 {
 			font-size: 5rem;
 		}
 	}
 
-	@media screen and (max-width: 768px) {
+	@media screen and (max-width: 768px), screen and (max-height: 768px) {
 		h1 {
 			margin-top: 3rem;
 			font-size: 4rem;
@@ -88,7 +88,7 @@
 		}
 	}
 
-	@media screen and (max-width: 560px) {
+	@media screen and (max-width: 560px), screen and (max-height: 560px) {
 		h1 {
 			font-size: 3rem;
 			letter-spacing: 1px;
@@ -100,7 +100,7 @@
 		}
 	}
 
-	@media screen and (max-width: 440px) {
+	@media screen and (max-width: 440px), screen and (max-height: 440px) {
 		h1 {
 			font-size: 2.5rem;
 		}

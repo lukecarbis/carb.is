@@ -100,7 +100,7 @@
 		}
 	}
 
-	@media screen and (max-width: 768px) {
+	@media screen and (max-width: 768px), screen and (max-height: 768px) {
 		.podcast:nth-child(even) {
 			text-align: left;
 			flex-direction: row;
@@ -116,7 +116,7 @@
 			display: none;
 		}
 	}
-	@media screen and (max-width: 560px) {
+	@media screen and (max-width: 560px), screen and (max-height: 560px) {
 		h2 {
 			font-size: 2rem;
 		}

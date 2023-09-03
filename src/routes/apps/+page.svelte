@@ -209,7 +209,7 @@
 		}
 	}
 
-	@media screen and (max-width: 768px) {
+	@media screen and (max-width: 768px), screen and (max-height: 768px) {
 		.phone {
 			margin-top: 0;
 			margin-bottom: 2rem;

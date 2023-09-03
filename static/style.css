@@ -74,7 +74,7 @@ main > div[inert] {
 	}
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px), screen and (max-height: 768px) {
 	body {
 		justify-content: start;
 	}

@@ -67,6 +67,7 @@
 		width: 52vw;
 		max-width: 52rem;
 		height: 52vh;
+		min-height: 36rem;
 		padding-top: 1.5rem;
 		box-sizing: border-box;
 		overflow: hidden;
@@ -263,13 +264,16 @@
 		}
 	}
 
-	@media screen and (max-width: 1024px) {
+	@media screen and (max-width: 1024px), screen and (max-height: 1024px) {
 		.browser {
-			width: 72vw;
+			width: 86vw;
 		}
 	}
 
-	@media screen and (max-width: 768px) {
+	@media screen and (max-width: 768px) and (max-height: 768px) {
+		.browser {
+			padding-top: 0;
+		}
 		.wp {
 			display: block;
 			overflow-y: scroll;
@@ -290,7 +294,5 @@
 			border-top: 2px solid var(--gray);
 			max-width: none;
 		}
-	}
-	@media screen and (max-width: 560px) {
 	}
 </style>

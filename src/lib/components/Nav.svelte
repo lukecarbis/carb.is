@@ -149,7 +149,7 @@
 		}
 	}
 
-	@media screen and (max-width: 1024px) {
+	@media screen and (max-width: 1024px), screen and (max-height: 1024px) {
 		li:nth-child(1) {
 			left: 10%;
 			top: 10%;
@@ -171,8 +171,9 @@
 		}
 	}
 
-	@media screen and (max-width: 768px) {
+	@media screen and (max-width: 768px), screen and (max-height: 768px) {
 		h1 {
+			margin-bottom: 3rem;
 			display: block;
 			text-decoration-thickness: 5px;
 			order: -1;
@@ -207,12 +208,22 @@
 			top: 0;
 		}
 
+		li:hover,
+		li.selected {
+			translate: 0;
+		}
+
+		li:hover > a,
+		li.selected > a {
+			padding-bottom: 0;
+		}
+
 		a {
 			text-decoration-thickness: 5px;
 		}
 	}
 
-	@media screen and (max-width: 560px) {
+	@media screen and (max-width: 560px), screen and (max-height: 560px) {
 		h1 {
 			font-size: 2.5rem;
 			text-decoration-thickness: 3px;
@@ -227,7 +238,7 @@
 		}
 	}
 
-	@media screen and (max-width: 440px) {
+	@media screen and (max-width: 440px), screen and (max-height: 440px) {
 		h1 {
 			font-size: 2rem;
 			text-decoration-thickness: 2px;

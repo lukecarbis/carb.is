@@ -1,0 +1,88 @@
+==================================================================
+https://keybase.io/carbis
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://carb.is
+  * I am carbis (https://keybase.io/carbis) on keybase.
+  * I have a public key with fingerprint 5475 6B67 E62E 4687 BB40  FB4E 5996 5B7B F395 AF7F
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101c5a3d1f1c3e5716c235e9cfdce9112552a49dbf490a45c212fc4f4f99774a2f80a",
+      "fingerprint": "54756b67e62e4687bb40fb4e59965b7bf395af7f",
+      "host": "keybase.io",
+      "key_id": "59965b7bf395af7f",
+      "kid": "0101ed4ddd3ab1507678cad094223e9e95884c029bd27ca231f2dd15f99b383c69ec0a",
+      "uid": "4676bfe2fcff223b3388f02e51231600",
+      "username": "carbis"
+    },
+    "merkle_root": {
+      "ctime": 1693791746,
+      "hash_meta": "da5d088fdab4444f3bc9727bdaa9916b7cc47201933826bea8ec2d00531f7765",
+      "seqno": 24884418
+    },
+    "revoke": {
+      "sig_ids": [
+        "434c59bbbbd06efd24ca93c623d03888bc978005a1980f98a67d2c7d1a9a4a590f"
+      ]
+    },
+    "service": {
+      "hostname": "carb.is",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1693791758,
+  "expire_in": 157680000,
+  "prev": "f6981d2d3726a3d006eadc3818824b9b7f217e0fa8d49553bcea980403d9a7af",
+  "seqno": 76,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMP3AnicbVN7bBRFHO7V8ihICwgEaApmeRixltnZ2Z2daxpBfABSFQEbbOGY3Zlp
+1yt3193rQWnOVgUFEQIIVCpQRSxCKCDyKmkCfYABEtOKigKCiIZX/QcoPhB0rtFg
+jPPPZiff9/2+75uZ1j73JfXyzVxbUHFjzc5K34nmSFkS6zTSKhQrzMoVf4US5F0f
+XsK4Fw0EHab4FaAC1dapxlSh2hrXsWrYUNM5sQWzOVFVqOuQIsIsgQigSLehCoWN
+BBKEYIwoFCagSpYinFARdyOuE4pKWR1h3bAMzA3IkWFiy0JAWIjrhBi6hS2hEZ0K
+LCSxOOwlGNKcRT2e7YTlnvwJdNn7H/w935whxphGLVUH2MCmTRkgCEKNE05000Q2
+gMRiENsUaqqAjKm6dG1ppmYbhNtdvsu65JCBDUtwmUwIKWBpmmkKALmuSqYBQALo
+cTdE53KJtqlrOZ4Sz1LmcjdYwgNuOBxNVGtHnQRANYiGiYqRIeNRrzgwl0ep5DGq
+MyCFGbWQXEKzbIIhthilhKiGhW0bYQhUIsdDw+LU5DZkAOjSPcaGLl14vDQUVvwQ
+yXhINaUFl8fCQZ6Y7jlFsjVP8RcoSEO2Tiy5GDC4YBDZlMjUUGNARjMTg00pTFVi
+AkFMamAGbcxUSiiiOgFCmRVPTHNjjt0lnjimf8XPlvmzlIgbjobtcIncLI5GI54/
+0Um0PJJAzeNW4G9+wHJCTN4PyYhx13PCIdmRRP6nLt3MUvj8iOPygJNA6NiQHgFI
+zOExKSkMYqoMMg1DQ15ZIKNRZmumapoQWcTCAqqYA0FNhoiuy3o5lfkQ0BihmIp7
+/WF5MlFaJDVlaSEaLXO5Em9uKkxJ8vVK6t4tOfFwknql9v3nOWXMS7/7SF3zqzWx
+9tcy2p+YX1rU2ZQ8dKROq7ft6dxmr7te2JCU7Nvsr1p3qbp5+9D65w6enCMuh1rS
+lh2+Vj4+1ntB3ujznx0tTA0Vv9DRULPh28Zlq27XtcVvjnqsYXLvJQOu5qSw5Suy
+F/1SzQavbsqeuetAj/SRrWDwF1Pit3eEbuTtiL+Tu5G2VS64evh85Ucz3+7InF17
+KO3Mlv5LB22qV6t3f4xLM6Jj2w/0y1n55rXqWEHgxLgVwcpNI/LO1o4eNBWsLV6T
+vHr6yQ1e5fV3j/V8ML1l0az1YPPS1JxF9ROW9iZb37r/jcybGz+YWrW3us/Er880
+flrRrXLYoTJY5xt2yfd5yYi+P9cP+fXWRff3cH75b7kDVlWkPZPa1uPuLOPKpM4h
+pYNqN5wsP3oxZWIPltmyeG/O4pUweHz/1HmZvpa65VXnJxy5/OgF9PCHa4fnvbx7
+xapkryBwbtQfB2/1fKD2q5zscX9+t+fLbzTPHxhfXvVDkE1y0vKfavr+6RenzT7X
+1vNI0bQL5ybVNWTOMHblLymckfeGvd5JL8h0aM3hg7lj+53Oz7106vnStjFXHj+9
+d8y+rWnTb+4TnQNfmu6d2u8ujIxcuKWd5Hcs2IT31DTvnLPYGn8n/cezGSPeK33S
+Czb+dOtIXu6E91Nahx+zzGm45syzA7MaO1ofut4a7777ky2izxw0pf/2O6/4Xr82
+OdlNOf4Xlsb4CA==
+=mCsv
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/carbis
+
+==================================================================

@@ -48,7 +48,7 @@
 		}
 	}
 
-	@media screen and (max-width: 768px), screen and (max-height: 1024px) {
+	@media screen and (max-width: 768px), screen and (max-height: 884px) {
 		div {
 			height: 2rem;
 			margin-bottom: 2rem;

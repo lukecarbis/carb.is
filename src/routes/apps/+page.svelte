@@ -50,7 +50,7 @@
 		rotate: -4deg;
 		width: 18rem;
 		height: 32rem;
-		margin-top: -4rem;
+		margin: 0 auto;
 	}
 
 	.screen {
@@ -209,7 +209,7 @@
 		}
 	}
 
-	@media screen and (max-width: 768px), screen and (max-height: 1024px) {
+	@media screen and (max-width: 768px), screen and (max-height: 884px) {
 		.phone {
 			margin-top: 0;
 			margin-bottom: 2rem;

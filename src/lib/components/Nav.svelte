@@ -71,6 +71,7 @@
 		text-align: center;
 		position: absolute;
 		transition: all 0.5s;
+		z-index: 20;
 	}
 
 	li:hover,
@@ -171,7 +172,7 @@
 		}
 	}
 
-	@media screen and (max-width: 768px), screen and (max-height: 1024px) {
+	@media screen and (max-width: 768px), screen and (max-height: 884px) {
 		h1 {
 			margin-bottom: 3rem;
 			display: block;

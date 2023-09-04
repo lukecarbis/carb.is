@@ -26,7 +26,7 @@
 		flex-direction: column;
 		justify-content: center;
 	}
-	@media screen and (max-width: 768px), screen and (max-height: 1024px) {
+	@media screen and (max-width: 768px), screen and (max-height: 884px) {
 		div {
 			justify-content: start;
 			flex: 0;

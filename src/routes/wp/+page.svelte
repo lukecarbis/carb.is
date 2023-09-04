@@ -67,10 +67,10 @@
 		width: 52vw;
 		max-width: 52rem;
 		height: 52vh;
-		min-height: 36rem;
 		padding-top: 1.5rem;
 		box-sizing: border-box;
 		overflow: hidden;
+		margin: 4rem auto 0;
 	}
 
 	.wp {
@@ -270,9 +270,11 @@
 		}
 	}
 
-	@media screen and (max-width: 768px) and (max-height: 1024px) {
+	@media screen and (max-width: 768px), screen and (max-height: 884px) {
 		.browser {
-			padding-top: 0;
+			width: 86vw;
+			margin-top: 0;
+			min-height: 36rem;
 		}
 		.wp {
 			display: block;

@@ -79,14 +79,15 @@
 		height: auto;
 		border: none;
 		rotate: -16deg;
-		top: -5rem;
+		top: 50%;
+		margin-top: -16rem;
 		right: 14rem;
 		background: transparent;
 	}
 
 	.headphone:nth-of-type(2) {
-		top: -7rem;
-		right: 8rem;
+		margin-top: -17rem;
+		right: 7rem;
 		rotate: 42deg;
 	}
 
@@ -100,7 +101,7 @@
 		}
 	}
 
-	@media screen and (max-width: 768px), screen and (max-height: 1024px) {
+	@media screen and (max-width: 768px), screen and (max-height: 884px) {
 		.podcast:nth-child(even) {
 			text-align: left;
 			flex-direction: row;

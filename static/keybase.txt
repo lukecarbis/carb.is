@@ -21,16 +21,6 @@ To do so, I am signing this object:
       "uid": "4676bfe2fcff223b3388f02e51231600",
       "username": "carbis"
     },
-    "merkle_root": {
-      "ctime": 1693791746,
-      "hash_meta": "da5d088fdab4444f3bc9727bdaa9916b7cc47201933826bea8ec2d00531f7765",
-      "seqno": 24884418
-    },
-    "revoke": {
-      "sig_ids": [
-        "434c59bbbbd06efd24ca93c623d03888bc978005a1980f98a67d2c7d1a9a4a590f"
-      ]
-    },
     "service": {
       "hostname": "carb.is",
       "protocol": "https:"
@@ -38,10 +28,10 @@ To do so, I am signing this object:
     "type": "web_service_binding",
     "version": 1
   },
-  "ctime": 1693791758,
+  "ctime": 1693791873,
   "expire_in": 157680000,
-  "prev": "f6981d2d3726a3d006eadc3818824b9b7f217e0fa8d49553bcea980403d9a7af",
-  "seqno": 76,
+  "prev": "20f7bc9bd3ea2a5b4708ff6279fdc756e81a589a683976f56165c00647fa316c",
+  "seqno": 77,
   "tag": "signature"
 }
 
@@ -51,33 +41,30 @@ which yields the signature:
 Version: Keybase OpenPGP v2.1.13
 Comment: https://keybase.io/crypto
 
-yMP3AnicbVN7bBRFHO7V8ihICwgEaApmeRixltnZ2Z2daxpBfABSFQEbbOGY3Zlp
-1yt3193rQWnOVgUFEQIIVCpQRSxCKCDyKmkCfYABEtOKigKCiIZX/QcoPhB0rtFg
-jPPPZiff9/2+75uZ1j73JfXyzVxbUHFjzc5K34nmSFkS6zTSKhQrzMoVf4US5F0f
-XsK4Fw0EHab4FaAC1dapxlSh2hrXsWrYUNM5sQWzOVFVqOuQIsIsgQigSLehCoWN
-BBKEYIwoFCagSpYinFARdyOuE4pKWR1h3bAMzA3IkWFiy0JAWIjrhBi6hS2hEZ0K
-LCSxOOwlGNKcRT2e7YTlnvwJdNn7H/w935whxphGLVUH2MCmTRkgCEKNE05000Q2
-gMRiENsUaqqAjKm6dG1ppmYbhNtdvsu65JCBDUtwmUwIKWBpmmkKALmuSqYBQALo
-cTdE53KJtqlrOZ4Sz1LmcjdYwgNuOBxNVGtHnQRANYiGiYqRIeNRrzgwl0ep5DGq
-MyCFGbWQXEKzbIIhthilhKiGhW0bYQhUIsdDw+LU5DZkAOjSPcaGLl14vDQUVvwQ
-yXhINaUFl8fCQZ6Y7jlFsjVP8RcoSEO2Tiy5GDC4YBDZlMjUUGNARjMTg00pTFVi
-AkFMamAGbcxUSiiiOgFCmRVPTHNjjt0lnjimf8XPlvmzlIgbjobtcIncLI5GI54/
-0Um0PJJAzeNW4G9+wHJCTN4PyYhx13PCIdmRRP6nLt3MUvj8iOPygJNA6NiQHgFI
-zOExKSkMYqoMMg1DQ15ZIKNRZmumapoQWcTCAqqYA0FNhoiuy3o5lfkQ0BihmIp7
-/WF5MlFaJDVlaSEaLXO5Em9uKkxJ8vVK6t4tOfFwknql9v3nOWXMS7/7SF3zqzWx
-9tcy2p+YX1rU2ZQ8dKROq7ft6dxmr7te2JCU7Nvsr1p3qbp5+9D65w6enCMuh1rS
-lh2+Vj4+1ntB3ujznx0tTA0Vv9DRULPh28Zlq27XtcVvjnqsYXLvJQOu5qSw5Suy
-F/1SzQavbsqeuetAj/SRrWDwF1Pit3eEbuTtiL+Tu5G2VS64evh85Ucz3+7InF17
-KO3Mlv5LB22qV6t3f4xLM6Jj2w/0y1n55rXqWEHgxLgVwcpNI/LO1o4eNBWsLV6T
-vHr6yQ1e5fV3j/V8ML1l0az1YPPS1JxF9ROW9iZb37r/jcybGz+YWrW3us/Er880
-flrRrXLYoTJY5xt2yfd5yYi+P9cP+fXWRff3cH75b7kDVlWkPZPa1uPuLOPKpM4h
-pYNqN5wsP3oxZWIPltmyeG/O4pUweHz/1HmZvpa65VXnJxy5/OgF9PCHa4fnvbx7
-xapkryBwbtQfB2/1fKD2q5zscX9+t+fLbzTPHxhfXvVDkE1y0vKfavr+6RenzT7X
-1vNI0bQL5ybVNWTOMHblLymckfeGvd5JL8h0aM3hg7lj+53Oz7106vnStjFXHj+9
-d8y+rWnTb+4TnQNfmu6d2u8ujIxcuKWd5Hcs2IT31DTvnLPYGn8n/cezGSPeK33S
-Czb+dOtIXu6E91Nahx+zzGm45syzA7MaO1ofut4a7777ky2izxw0pf/2O6/4Xr82
-OdlNOf4Xlsb4CA==
-=mCsv
+yMNoAnicbVJtUFRVGF7YRWonMwUpxxroIgPGivf73LsTBqWOzKAmCuFgMffjHLgC
+u+veZZU2IsYhMEE0LAd0yqYayYVwcohigIavQLcShXKlGSRCsyDCGBsHW+ksU1M/
+On/OnPc8z3Oe57xv31KjwRyy++0cz9xbLWUhvu5jxQb1Dl/uIWS7WkJYPUQBXNxg
+oQp1V26BphJWgqRISuEkRqUQpTCQAxSv0AwHRQWpChQpiuY4WmJFVUasSEosp9AU
+jRQWsUgUAWAlGgmkRFgIpNnyoNPh1GwuLMuxgONlHkCehiwvAFlmSSSzkBNFnpOB
+jBiRkxBAmJhv14MMbE6WdJik2XENH3IX7f0P/l/fUGVVVWUkmeJIwANBkVRSZGma
+gSIUOUFgFZIWZZUGikQzFKJVleKwa5kRGIUXobLou3hRjuUBLyOIkyGEBWSGEQRE
+0pCjMJMnySBQh06bVAQxWpGcsqYTpRYC19yaAoPfGszxn/skDLAQDqfdZVfshbiY
+73I5dGuQ5CpxBFH7oZz7Nz9X1mwq/kDMcEOnrtlthJXCSMWlBQUpXmSASAmAsRDw
+gENzwlwtiOAAL5B4Bd+BbixJkwjICs7MQImWOJkFpIAQTwMRdxN3BAqUxAmixAuM
+CHjE8RTPKSTJswBJOKdCBBPts9kJKwDYp5SHNXUtzya5ip2QKO3p3mMyhJgNS8JC
+g5NlMD/4yD/zdnRo2YLagl5ic5z9/Y3PN1H1Bz8K7fLsHE7+ZfWTCaPbV+TYp8+l
+Xv3AVH05c9dpr+tG76O+CrHkOVPzJXfgcMwLlT9WHfAmT26MbvOd/sNbK6GYni8W
+7pZfsc2/l7y5Z8rvr7u2zJ/GOSaihJvhUeeGBiOfqMvKmDu5N906933WvJpgTKCT
+etr1OO8zs4l3f4iIvFfTUXbb0Ds0Yt4WZYqtyc45T0RVx/g/v9OW1vSzp2NwQ+R6
+4ezSscIHUiPeOMFsbresBbEztOeoek2fG519TchYuf1wzcTUNt8nF3qnv6xd6H+z
+9bb9bGDvkZ1j0U+9buq4bzwVWby1F15val2vmKMrZpIqA42/hY13RnotjVXSrXDC
+m7D1llBuhO7AQG2Mtza73t4tpS4/ZJu9WTmS9un59Ja6zP49XylFDYHSgaer9Up3
+YsfwjD7e3no9fo180PF7RsIh7fivP6kFM5nTl5YMXmn5esVnc6tCLgw95u8rfSd6
+35Hk5kbTce3j0OGurLUPl/X1jR+LXnc5ZcepF32C8f35qNE296Yd9Y9HPBT/58y7
+/riaLbs3xH5YZEtmisdCLm5hm++Rk2alLP7blvns4cTlxkDlNy9PheU0lFRR617d
+L49UjzZUhH63+mL71flVhe7mTa/09TzbfGOgq/PMmfCTBnW001e+K2Vl4sRkflt6
+XEVKlvX+X/JwxZQ=
+=TyqO
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or

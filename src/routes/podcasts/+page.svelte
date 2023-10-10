@@ -8,9 +8,11 @@
 	</div>
 </div>
 <div class="podcast">
-	<a href="#" target="_blank"><img alt="Crossword podcast art" src="/images/crossword.png" /></a>
+	<a href="https://ultrapromax.fm" target="_blank">
+		<img alt="Ultra Pro Max podcast art" src="/images/ultra-pro-max.png" />
+	</a>
 	<div>
-		<h2><a href="#" target="_blank">Ultra Max Pro</a></h2>
+		<h2><a href="https://ultrapromax.fm" target="_blank">Ultra Pro Max</a></h2>
 		<p>App development and the Apple ecosystem.</p>
 	</div>
 </div>

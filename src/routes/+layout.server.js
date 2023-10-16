@@ -4,16 +4,10 @@ const API_BASE_URL = 'https://api.cloudflare.com/client/v4';
 const KV_KEY = 'PAGE_VIEWS';
 
 export const load = async ({ fetch, cookies, url }) => {
-	let pageViews = parseInt(cookies.get('pageViews'));
+	let pageViews = await getPageViews(fetch);
 
-	if (!pageViews) {
-		pageViews = await getPageViews(fetch);
-
-		if (url.pathname === '/') {
-			pageViews = await updatePageViews(pageViews, fetch);
-		}
-
-		cookies.set('pageViews', pageViews, { path: '/' });
+	if (url.pathname === '/') {
+		pageViews = await updatePageViews(pageViews, fetch);
 	}
 
 	return { pageViews };

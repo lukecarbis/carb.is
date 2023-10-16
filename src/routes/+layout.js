@@ -1,7 +1,6 @@
-export const load = ({ url }) => {
-    const { pathname } = url
+export const load = ({ url, data }) => {
+	const { pageViews } = data;
+	const { pathname } = url;
 
-    return {
-        pathname
-    }
-}
+	return { pageViews, pathname };
+};

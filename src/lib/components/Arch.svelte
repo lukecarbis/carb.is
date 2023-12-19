@@ -73,7 +73,7 @@
 	@media screen and (max-width: 768px), screen and (max-height: 884px) {
 		h1 {
 			margin-top: 3rem;
-			font-size: 4rem;
+			font-size: 3rem;
 			translate: 0 0;
 		}
 		h1 span {

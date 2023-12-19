@@ -3,10 +3,10 @@
 	import Social from '$lib/components/Social.svelte';
 </script>
 
-<Arch title="Luke Carbis" />
+<Arch title="Saadia Carbis" />
 
 <p>
-	I also go by <strong>Saadia</strong>, my Hebrew name.
+	I also go by <strong>Luke</strong>, my English name.
 </p>
 <p>I'm a WordPress dev and core contributor, mostly.</p>
 <p>Besides that, I build apps, play music, and somehow manage to parent five children!</p>

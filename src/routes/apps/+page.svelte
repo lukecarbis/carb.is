@@ -27,15 +27,17 @@
 			<div>
 				<h2><a href="https://amberhour.app" target="_blank">Amber Hour</a></h2>
 				<p>Unlock deliciously-priced bevvies.</p>
-				<p><strong>Coming Soon</strong></p>
+				<p><strong>Available Now</strong></p>
 			</div>
 		</div>
 		<div class="app">
-			<img alt="Confetti app icon" src="/images/confetti.png" />
+			<a href="https://apps.apple.com/app/id6476107960" target="_blank">
+				<img alt="Zmanim Pro app icon" src="/images/zmanim-pro.png" />
+			</a>
 			<div>
-				<h2>Confetti</h2>
-				<p>A to-do list for the whole family.</p>
-				<p><strong>WIP!</strong></p>
+				<h2><a href="https://apps.apple.com/app/id6476107960" target="_blank">Zmanim Pro</a></h2>
+				<p>Accurate halachic times, anywhere in the world.</p>
+				<p><strong>Available Now</strong></p>
 			</div>
 		</div>
 	</div>
@@ -152,7 +154,8 @@
 
 	a {
 		color: var(--black);
-		-webkit-text-decoration-style: wavy;
+		-webkit-text-decoration-style: wavy !important;
+		text-decoration-style: solid; /* Wavy looks weird in non-webkit browsers */
 		text-underline-offset: 4px;
 		text-decoration-color: var(--purple);
 		transition: all 0.2s;

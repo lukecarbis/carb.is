@@ -8,7 +8,7 @@
 		{ href: '/wp', label: 'WordPress' },
 		{ href: '/podcasts', label: 'Podcasts' },
 		{ href: '/apps', label: 'Apps' },
-		{ href: 'https://blog.carb.is/', label: 'Blog' }
+		{ href: 'https://diggingforfire.blog/', label: 'Blog' }
 	];
 </script>
 

@@ -90,7 +90,7 @@
 
 	@media screen and (max-width: 560px), screen and (max-height: 560px) {
 		h1 {
-			font-size: 3rem;
+			font-size: 2.75rem;
 			letter-spacing: 1px;
 			--arch: 30;
 		}

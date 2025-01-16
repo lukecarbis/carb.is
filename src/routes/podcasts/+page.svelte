@@ -8,12 +8,12 @@
 	</div>
 </div>
 <div class="podcast">
-	<a href="https://ultrapromax.fm" target="_blank">
-		<img alt="Ultra Pro Max podcast art" src="/images/ultra-pro-max.png" />
+	<a href="https://www.buzzsprout.com/2395469" target="_blank">
+		<img alt="Async podcast art" src="/images/async.png" />
 	</a>
 	<div>
-		<h2><a href="https://ultrapromax.fm" target="_blank">Ultra Pro Max</a></h2>
-		<p>App development and the Apple ecosystem.</p>
+		<h2><a href="https://www.buzzsprout.com/2395469" target="_blank">Async</a></h2>
+		<p>Async is a <a href="https://diggingforfire.blog/posts/turn-based-podcasting/">turn-based podcast</a>. It's a conversation about technology, app development, and remote work.</p>
 	</div>
 </div>
 
@@ -60,6 +60,7 @@
 
 	p {
 		font-size: 1.5rem;
+		max-width: 550px;
 	}
 
 	a {

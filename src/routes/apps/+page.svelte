@@ -40,6 +40,16 @@
 				<p><strong>Available Now</strong></p>
 			</div>
 		</div>
+		<div class="app">
+			<a href="https://apps.apple.com/au/app/tonic-social-cleaner/id6747209298" target="_blank">
+				<img alt="Tonic app icon" src="/images/tonic.png" />
+			</a>
+			<div>
+				<h2><a href="https://apps.apple.com/au/app/tonic-social-cleaner/id6747209298" target="_blank">Tonic</a></h2>
+				<p>Remove login nags from Facebook and Instagram.</p>
+				<p><strong>Available Now</strong></p>
+			</div>
+		</div>
 	</div>
 </div>
 
@@ -63,28 +73,32 @@
 		position: relative;
 		padding: 3.5rem 1rem 1rem;
 		box-sizing: border-box;
+		overflow-y: scroll;
 	}
 
 	.island {
-		position: absolute;
-		top: 1rem;
+		position: fixed;
+		top: 2rem;
 		left: 50%;
-		width: 8rem;
+		width: 6rem;
 		height: 1rem;
 		translate: -50% 0;
 		background: var(--black);
 		border-radius: 1rem;
+		display: fixed;
+		z-index: 10;
 	}
 
 	.status {
-		position: absolute;
+		position: fixed;
 		top: 1rem;
-		left: 0;
-		padding: 0 1rem;
+		left: 2rem;
+		padding: 1rem 0 0.5rem;
 		box-sizing: border-box;
-		width: 100%;
+		width: calc(100% - 4rem);
 		display: flex;
 		justify-content: space-between;
+		background: #fff;
 	}
 
 	.battery {
@@ -105,8 +119,8 @@
 
 	.battery:after {
 		position: absolute;
-		top: 0;
-		right: 1em;
+		top: 1rem;
+		right: 0;
 		content: '';
 		display: block;
 		width: 3px;
